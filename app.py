@@ -61,6 +61,7 @@ class YoloApp:
             toolbar, from_=0.05, to=0.95, resolution=0.05,
             orient="horizontal", variable=self.conf_var, length=160, showvalue=True,
         ).pack(side="left")
+        tk.Label(toolbar, text="@ Marianna Benkalovych").pack(side="left")
 
         # Main area: left = image tabs, right = results
         main = tk.Frame(self.root)
